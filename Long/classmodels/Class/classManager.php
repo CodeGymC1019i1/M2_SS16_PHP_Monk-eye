@@ -7,7 +7,7 @@ class classManager implements Status
     
     public function __construct()
     {
-        $data = new DBConnect("mysql:host=127.0.0.1;dbname=classicmodels", "root", "1037212a");
+        $data = new DBConnect("mysql:host=127.0.0.1;dbname=classicmodels", "root", "long1996");
         $this->connect = $data->connect();
     }
     
